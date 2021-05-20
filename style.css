@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Spartan", sans-serif;
+}
+
+#navBar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  background-color: black !important;
+}
+
+.navbar .navbar-brand {
+  color: #dc3545;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff !important;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #dc3545;
+}
+.nav-item a:hover {
+  border-bottom: 3.5px solid #dc3545;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("hotel/bg.jfif");
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+
+#home > h1 {
+  color: #fff;
+  font-size: 100px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+#home > p {
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.input-group {
+  width: 40%;
+}
+
+#about {
+  background-color: #dc3545;
+}
+
+.rowo {
+  background-color: #dc3545;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.txt > h1 {
+  text-align: center;
+  color: #fff;
+}
+.txt > p {
+  text-align: center;
+  color: #fff;
+}
+
+#product {
+  background-color: rgb(216, 209, 209);
+}
+
+.row1 {
+  margin-top: 20px;
+}
+
+.card {
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3),
+    inset 4px 4px 4px rgb(226, 223, 223);
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.card-title {
+  color: #dc3545;
+}
+
+#product h1 {
+  color: #fff;
+  font-weight: bold;
+}
+@media screen and (max-width: 598px) {
+  #home > h1 {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+
+  .input-group {
+    width: 80%;
+  }
+}
+
+#contact img {
+  width: 100%;
+}
+.box {
+  width: 80%;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+.box input {
+  margin: 20px;
+}
+.box textarea {
+  margin: 20px;
+}
+
+.box h1 {
+  margin: 20px;
+  font-weight: bold;
+  color: #dc3545;
+}
+.box button {
+  margin: 20px;
+}
+
+@media screen and (max-width: 348px) {
+  .input-group {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .card {
+    margin-top: 20px;
+  }
+
+  .row1 {
+    margin-top: 20px;
+  }
+}
